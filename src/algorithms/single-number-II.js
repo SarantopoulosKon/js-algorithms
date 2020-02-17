@@ -1,8 +1,7 @@
 /**
- * Given a non-empty array of integers, every element appears three   * times except for one, which appears exactly once. Find that single * one.
+ * Given a non-empty array of integers, every element appears three
+ * times except for one, which appears exactly once. Find that single * one.
  */
-
-const data = [3,1,3,1,3,1,24,24,24,99];
 
 /**
  * @param {number[]} nums
@@ -18,6 +17,4 @@ var singleNumber = function(nums) {
     return ones;
 
 };
-
-console.log(singleNumber(data));
 

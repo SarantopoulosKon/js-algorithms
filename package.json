@@ -1,0 +1,26 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "Collection of data structures and algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarantopoulosKon/js-algorithms.git"
+  },
+  "keywords": [],
+  "author": "Konstantinos Sarantopoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarantopoulosKon/js-algorithms/issues"
+  },
+  "homepage": "https://github.com/SarantopoulosKon/js-algorithms#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  }
+}
