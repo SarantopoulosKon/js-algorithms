@@ -1,8 +1,7 @@
 {
   "name": "js-algorithms",
   "version": "1.0.0",
-  "description": "Collection of data structures and algorithms",
-  "main": "index.js",
+  "description": "A Collection of data structures and algorithms written in javascript",
   "scripts": {
     "test": "jest"
   },
