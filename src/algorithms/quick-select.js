@@ -1,3 +1,5 @@
+import swap from '../utils/swap';
+
 function quickSelect(arr, left, right, k) {
     if (left === right) {
       return arr[left];
@@ -30,11 +32,3 @@ function quickSelect(arr, left, right, k) {
   
     return start;
   }
-  
-  function swap(arr, a, b) {
-    const temp = arr[b];
-  
-    arr[b] = arr[a];
-    arr[a] = temp;
-  }
-  

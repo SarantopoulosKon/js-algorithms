@@ -1,3 +1,5 @@
+import swap from '../utils/swap';
+
 function partition(arr, left, right) {
     const pivotPoint = Math.floor((right + left) / 2);
     const pivot = arr[pivotPoint];
@@ -22,14 +24,6 @@ function partition(arr, left, right) {
 
     return low;
 }
-
-function swap(arr, a, b) {
-    const temp = arr[b];
-  
-    arr[b] = arr[a];
-    arr[a] = temp;
-}
-
 
 function quicksort(arr, left, right) {
     // Case either empty array or with one element

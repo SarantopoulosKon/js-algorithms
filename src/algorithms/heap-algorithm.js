@@ -1,3 +1,5 @@
+import swap from '../utils/swap';
+
 /**
  * Heap's algorithm, permutation generator, read more [here](https://en.wikipedia.org/wiki/Heap%27s_algorithm)
  * or Robert Sedgewick’s book about algorithms
@@ -20,13 +22,6 @@ function *permute(a, n = a.length) {
         }
     }
 }
-
-function swap(arr, a, b) {
-    const temp = arr[a];
-    arr[a] = arr[b];
-    arr[b] = temp;
-}
-
 
 
 
